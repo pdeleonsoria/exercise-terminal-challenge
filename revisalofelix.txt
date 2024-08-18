@@ -1,0 +1,48 @@
+    1  mkdir tutorial_terminal
+    2  cd tutorial_terminal
+    3  touch hello_world.py
+    4  nano hello_world.py
+    5  mkdir scripts_python
+    6  mv hello_world.py scripts_python
+    7  mkdir scripts_bash
+    8  cd scripts_bash
+    9  touch ejecuta_python.sh
+   10  nano ejecuta_python.sh
+   11  chmod +x ejecuta_python.sh
+   12  ./ejecuta_python.sh
+   13  cd..
+   14  cd...
+   15  cd tutorial_terminal
+   16  cd ~
+   17  cd ..
+   18  cd /workspace/exercise-terminal-challenge
+   19  mkdir res
+   20  cd scripts_python
+   21  cd /workspace/exercise-terminal-challenge/tutorial_terminal/scripts_python
+   22  cp hello_world.py copia_hello_world.py
+   23  nano copia_hello_world.py
+   24  python3 copia_hello_world.py
+   25  /home/gitpod/.pyenv/shims/python /workspace/exercise-terminal-challenge/tutorial_terminal/scripts_python/copia_hello_world.py
+   26  python3 copia_hello_world.py
+   27  cd /workspace/exercise-terminal-challenge/tutorial_terminal/scripts_python
+   28  python3 copia_hello_world.py
+   29  rm hello_world.py
+   30  ls
+   31  cd..
+   32  mv res tutorial_terminal
+   33  cd ~
+   34  mv res tutorial_terminal
+   35  cd res´
+   36  cd res
+   37  cd tutorial_terminal 
+   38  cd /workspace/exercise-terminal-challenge
+   39  mv res tutorial_terminal
+   40  cat res/test.txt
+   41  cat /workspace/exercise-terminal-challenge/tutorial_terminal/res/test.txt
+   42  mkdir data
+   43  wget https://drive.google.com/file/d/1G2vr_PbsfDJ7hK-1AhBI8WDF5z89TzCs/view?usp=sharing
+   44  tar -xvf sample-1-tar
+   45  find -name "*.jpg"
+   46  pwd
+   47  history
+   48  history > revisalofelix.txt
